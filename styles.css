@@ -1,3 +1,7 @@
+body {
+  background-color: black;  // This sets the background color for the whole page
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -38,6 +42,7 @@
     -moz-text-fill-color: transparent;
     display: flex;
     align-items: center;
+    text-align: right;
     cursor: pointer;
     text-decoration-skip-ink: none;
     font-size: 2rem;
@@ -52,7 +57,7 @@
     display: flex;
     align-items: right;
     list-style: none;
-    text-align: center;
+    text-align: right;
 }
 
 .navbar__item {
@@ -63,7 +68,7 @@
     color: #fff;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
     text-decoration: none;
     padding: 0 1rem;
     height: 100%;
@@ -256,7 +261,7 @@
   }
 
   .main__content h1 {
-    font-size 2.5rem;
+    font-size: 2.5rem;
     margin-top: 2rem;
   }
 
@@ -272,7 +277,7 @@
 
 @media screen and (max-width: 488px) {
   .main__content h1 {
-    font-size 3rem;
+    font-size: 3rem;
     margin-top: 3rem;
   }
 
